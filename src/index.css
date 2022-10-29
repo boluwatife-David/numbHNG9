@@ -1,13 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 15%;
+  line-height: 40px;
+  font-size: large;
+ 
+}
+.dark {
+  background-color: #333;
+  color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.light {
+  background-color: #fff;
+  color: #333;
 }
+.header {
+  margin-bottom: 30px;
+}
+.theme-btn {
+  position: absolute;
+  right: 35%;
+}
+
+
+.skeng{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.links{
+  display: grid;
+  gap: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 40px;
+}
+button {
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+
+hr{
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px; 
+  width: 50%; 
+  margin-bottom: 40px;
+}
+.sml-icons{
+  word-spacing: 20px;
+}
+.footer-icon{
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.footer-icon:hover {
+  transform: scale(1.1);
+}
+.world {
+  line-height: 18px;
+  font-size: large;
+  text-align: center;
+}
+
+.ingressive-sect {
+  position: relative;  
+
+}
+
+.world-icn {
+  margin-right: 10px;
+  height: 10px;
+  position: absolute;
+  right: 60%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .theme-btn{
+    right: 20%;
+  }
+  .footer{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .theme-btn{
+    right: 20%;
+  }
+  .footer{
+    font-size: 1.0rem;
+  }
+  .world-icn{
+    right: 75%;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  .world-icn{
+    right: 70%;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .world-icn{
+    right: 60%;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .world-icn{
+    right: 59%;
+  }
+}
+
+
+
+
+
