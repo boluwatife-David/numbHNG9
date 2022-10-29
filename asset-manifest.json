@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/boluwatife-David/numbHNG9.git/static/css/main.ad4c8fed.css",
-    "main.js": "/boluwatife-David/numbHNG9.git/static/js/main.0e105e74.js",
-    "static/js/787.543a5335.chunk.js": "/boluwatife-David/numbHNG9.git/static/js/787.543a5335.chunk.js",
-    "static/media/numb.jpeg": "/boluwatife-David/numbHNG9.git/static/media/numb.39724c0c14b765c6fa27.jpeg",
-    "index.html": "/boluwatife-David/numbHNG9.git/index.html",
-    "main.ad4c8fed.css.map": "/boluwatife-David/numbHNG9.git/static/css/main.ad4c8fed.css.map",
-    "main.0e105e74.js.map": "/boluwatife-David/numbHNG9.git/static/js/main.0e105e74.js.map",
-    "787.543a5335.chunk.js.map": "/boluwatife-David/numbHNG9.git/static/js/787.543a5335.chunk.js.map"
+    "main.css": "/numbHNG9/static/css/main.ad4c8fed.css",
+    "main.js": "/numbHNG9/static/js/main.b2769f1d.js",
+    "static/js/787.543a5335.chunk.js": "/numbHNG9/static/js/787.543a5335.chunk.js",
+    "static/media/numb.jpeg": "/numbHNG9/static/media/numb.39724c0c14b765c6fa27.jpeg",
+    "index.html": "/numbHNG9/index.html",
+    "main.ad4c8fed.css.map": "/numbHNG9/static/css/main.ad4c8fed.css.map",
+    "main.b2769f1d.js.map": "/numbHNG9/static/js/main.b2769f1d.js.map",
+    "787.543a5335.chunk.js.map": "/numbHNG9/static/js/787.543a5335.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad4c8fed.css",
-    "static/js/main.0e105e74.js"
+    "static/js/main.b2769f1d.js"
   ]
 }
