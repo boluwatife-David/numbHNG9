@@ -25,16 +25,16 @@ function App() {
     <div>
       <header className="header">
         <p><TbArrowBackUp className="theme-btn" /></p>
-        <img src={numb} alt="profile-img" className="skeng"/>
-        <p>NUMB.</p>
+        <img id="profile__img" src={numb} alt="profile-img" className="skeng"/>
+        <p id="slack">NUMB.</p>
       </header>
         <main className="links">
-        <a href="https://twitter.com/__numb_numb"><button type="button" >Twitter Link</button></a>
-        <a href="https://training.zuri.team/"><button type="button">Zuri Team</button></a>
-        <a href="https://books.zuri.team/"><button type="button">Zuri Books</button></a>
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=<Numb.>"><button type="button">Python Books</button></a>
-        <a href="https://background.zuri.team/"><button type="button">Background Check for Coders</button></a>
-        <a href="https://books.zuri.team/design-rules"><button type="button">Design Books</button></a>
+        <a id="twitter"href="https://twitter.com/__numb_numb"><button type="button" >Twitter Link</button></a>
+        <a id="btn__zuri"href="https://training.zuri.team/"><button type="button">Zuri Team</button></a>
+        <a id="books"href="https://books.zuri.team/"><button type="button">Zuri Books</button></a>
+        <a id="books__python"href="https://books.zuri.team/python-for-beginners?ref_id=<Numb.>"><button type="button">Python Books</button></a>
+        <a id="pitch"href="https://background.zuri.team/"><button type="button">Background Check for Coders</button></a>
+        <a id="book__design"href="https://books.zuri.team/design-rules"><button type="button">Design Books</button></a>
         <div className="sml-icons"><BsSlack className="footer-icon" /> <BsGithub className="footer-icon" /></div>
      </main>
      <hr />
