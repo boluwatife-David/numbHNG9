@@ -42,17 +42,19 @@ body {
   padding-right: 15%;
   margin-bottom: 40px;
 }
-button {
+a {
   position: relative;
   font-size: 15px;
   text-align: center;
   height: 70px;
   width: 100%;
+  background-color: rgb(245, 245, 245);
   border-radius: 8px;
   border: none;
   cursor: pointer;
   transition: all .3s ease-in-out;
   color: #000;
+  text-decoration: none;
 }
 
 
