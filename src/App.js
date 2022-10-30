@@ -28,12 +28,12 @@ function App() {
         <p>NUMB.</p>
       </header>
         <main className="links">
-        <button type="button">Twitter Link</button>
-        <button type="button">Zuri Team</button>
-        <button type="button">Zuri Books</button>
-        <button type="button">Python Books</button>
-        <button type="button">Background Check for Coders</button>
-        <button type="button">Design Books</button>
+        <a href="https://twitter.com/__numb_numb"><button type="button" >Twitter Link</button></a>
+        <a href="https://training.zuri.team/"><button type="button">Zuri Team</button></a>
+        <a href="https://books.zuri.team/"><button type="button">Zuri Books</button></a>
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=<Numb.>"><button type="button">Python Books</button></a>
+        <a href="https://background.zuri.team/"><button type="button">Background Check for Coders</button></a>
+        <a href="https://books.zuri.team/design-rules"><button type="button">Design Books</button></a>
         <div className="sml-icons"><BsSlack className="footer-icon" /> <BsGithub className="footer-icon" /></div>
      </main>
      <hr />
