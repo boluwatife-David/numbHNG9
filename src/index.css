@@ -53,6 +53,8 @@ a {
   border: none;
   cursor: pointer;
   transition: all .3s ease-in-out;
+  padding-top: 10px;
+  box-sizing: border-box;
   color: #000;
   text-decoration: none;
 }
