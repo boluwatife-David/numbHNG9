@@ -23,11 +23,10 @@ body {
 .header {
   margin-bottom: 30px;
 }
-.theme-btn {
+.share-btn {
   position: absolute;
   right: 35%;
 }
-
 
 .skeng{
   height: 150px;
@@ -42,18 +41,23 @@ body {
   padding-right: 15%;
   margin-bottom: 40px;
 }
+sub{
+  font-size: x-small;
+}
 a {
+  box-sizing: border-box;
   position: relative;
   font-size: 15px;
   text-align: center;
-  height: 70px;
+  height: 90px;
   width: 100%;
   background-color: rgb(245, 245, 245);
   border-radius: 8px;
   border: none;
   cursor: pointer;
   transition: all .3s ease-in-out;
-  padding-top: 10px;
+  padding-top: 20px;
+  line-height: 20px;
   box-sizing: border-box;
   color: #000;
   text-decoration: none;
@@ -105,6 +109,9 @@ hr{
   display: grid;
   grid-template-columns: auto auto auto;
   margin-bottom: 50px;
+}
+.footer-links {
+  background-color: white;
 }
 
 @media only screen and (max-width: 600px) {

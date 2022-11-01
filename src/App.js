@@ -5,6 +5,7 @@ import {GoPrimitiveDot} from "react-icons/go";
 import {BiWorld} from "react-icons/bi"
 import numb from "./numb.jpeg"
 
+
 function App() {
   // const [theme , setTheme] = React.useState(
   //   localStorage.getItem("theme") || "light"
@@ -24,18 +25,18 @@ function App() {
   return (
     <div>
       <header className="header">
-        <p><TbArrowBackUp className="theme-btn" /></p>
+        <p alt="share"><TbArrowBackUp className="share-btn" /></p>
         <img id="profile__img" src={numb} alt="profile-img" className="skeng"/>
         <p id="slack">NUMB.</p>
       </header>
-        <main className="links">
-        <a id="twitter"href="https://twitter.com/__numb_numb">Twitter Link</a>
-        <a id="btn__zuri"href="https://training.zuri.team/">Zuri Team</a>
-        <a id="books"href="https://books.zuri.team/">Zuri Books</a>
-        <a id="books__python"href="https://books.zuri.team/python-for-beginners?ref_id=<Numb.>">Python Books</a>
-        <a id="pitch"href="https://background.zuri.team/">Background Check for Coders</a>
-        <a id="book__design"href="https://books.zuri.team/design-rules">Design Books</a>
-        <div className="sml-icons"><BsSlack className="footer-icon" /> <BsGithub className="footer-icon" /></div>
+      <main className="links">
+        <a id="twitter"href="https://twitter.com/__numb_numb">Twitter Link<br /><sub>NUMB's Twitter</sub></a>
+        <a id="btn__zuri"href="https://training.zuri.team/">Zuri Team<br/><sub>Join the Zuri Team</sub></a>
+        <a id="books"href="https://books.zuri.team/">Zuri Books<br/><sub>check out handpicked books to grow your tech career</sub></a>
+        <a id="books__python"href="https://books.zuri.team/python-for-beginners?ref_id=<Numb.>">Python Books<br/><sub>check out these resources on Python</sub></a>
+        <a id="pitch"href="https://background.zuri.team/">Background Check for Coders<br/><sub>Check about of our programmers here</sub></a>
+        <a id="book__design"href="https://books.zuri.team/design-rules">Design Books<br/><sub>Check out new desing books offered by the Zuri Team</sub></a>
+        <div className="sml-icons"><BsSlack className="footer-icon" />  <BsGithub className="footer-icon" /></div>
      </main>
      <hr />
      <footer className="footer">
