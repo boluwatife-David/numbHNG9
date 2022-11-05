@@ -5,11 +5,14 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
-  text-align: center;
-  padding-top: 15%;
   line-height: 40px;
   font-size: large;
  
+}
+
+.main{
+  padding-top: 150px;
+  text-align: center;
 }
 .dark {
   background-color: #333;
@@ -26,9 +29,10 @@ body {
 .share-btn {
   position: absolute;
   right: 35%;
+  height: 30px;
 }
 
-.skeng{
+.profile-img{
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -62,7 +66,68 @@ a {
   color: #000;
   text-decoration: none;
 }
+.contact-pg{
+  box-sizing: border-box;
+  padding: 20px;
+  padding-top: 50px;
+  position: relative;
+}
 
+form{
+ max-width: 50%;
+ margin: auto;
+
+}
+
+
+.contact-el {
+  text-align: left;
+  font-size: small;
+  display: inline-block;
+
+}
+
+label {
+  font-size: small;
+  text-align: left;
+}
+
+.contact-head{
+  text-align: left;
+}
+
+.inputs {
+  margin-bottom: 15px;
+  height: 50px;
+  width: 100%;
+  text-indent: 10px;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #444;
+}
+textarea {
+  margin-bottom: 15px;
+  height: 100px;
+  width: 100%;
+  text-indent: 10px;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #444;
+}
+
+.submit-btn {
+  margin-bottom: 15px;
+  height: 50px;
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #444;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 hr{
   display: block;
@@ -93,22 +158,30 @@ hr{
   text-align: center;
 }
 
+
 .ingressive-sect {
   position: relative;  
-
+  padding-left: 0px;
 }
 
 .world-icn {
   margin-right: 10px;
   height: 10px;
   position: absolute;
-  right: 60%;
 }
+
 
 .footer {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-bottom: 50px;
+  margin-bottom: 50px;  
+}
+.footer_contact {
+  margin: auto;
+  max-width: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 50px;  
 }
 .footer-links {
   background-color: white;
@@ -118,8 +191,9 @@ hr{
   .share-btn{
     right: 20%;
   }
-  .footer{
+  .footer{  
     display: block;
+    text-align: center;
   }
 }
 
@@ -140,7 +214,9 @@ hr{
 @media only screen and (min-width: 768px) {
   .world-icn{
     right: 70%;
+    margin-right: 15px;
   }
+
 }
 
 
@@ -148,6 +224,11 @@ hr{
   .world-icn{
     right: 60%;
   }
+  .ingressive-sect{
+    text-align: right;
+    
+  }
+
 }
 
 
